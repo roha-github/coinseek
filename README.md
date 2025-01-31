@@ -1,5 +1,11 @@
 # coinseek
 
+## note
+
+* https://privatekeys.pw/key/0000000000000000000000000000000000000000000000000000000000000001 ~ minimum SHA-256 1
+* https://privatekeys.pw/key/fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 ~ maximum SHA-256 2 ^ 256 = 1,15e+77
+* https://iancoleman.io/bip39/ SHA256 = Entropy ~ Seed Phrases = 2.048 ^ 24 = 2,964e+79
+
 ## usage
 
 ```
