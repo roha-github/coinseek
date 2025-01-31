@@ -23,7 +23,7 @@ swadr = encode('bc', 0, witprog)
 
 # https://privatekeys.pw/key/5e8b64da785f1572e6da780648eaaffa009152d297bde80f852f068b0ec2989f
 print("Entropy Text                   :", passwd)  # testtesttesttest                                     (brainwallet)
-print("Entropy Hash                   :", entropy) # 5e8b64da785f1572e6da780648eaaffa009152d297bde80f852f068b0ec2989f
+print("Entropy Hash = sha256(Text)    :", entropy) # 5e8b64da785f1572e6da780648eaaffa009152d297bde80f852f068b0ec2989f
 print("Private Key compressed         :", wifc)    # KzPVYsYzN4KJLTHjqoD6i9h7UtfWQDUdMhg1f2gBrLxJnjv4Fm7b (C ~ WIF compressed)
 print("Private Key uncompressed       :", wifu)    # 5JXvbQgsc8Yncg2yqDHLRH1w2ngzQqbMUM6DPDALDzY7JCXUVLz  (U ~ WIF uncompressed) 
 print("Bitcoin Address C compressed   :", caddr)   # 1DByDY2tA2CES5GYXsbsmfFX8VJMqP8frf                   (C ~ legacy compressed)
