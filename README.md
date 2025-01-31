@@ -19,6 +19,16 @@ python coinseek-testlibrary-bit.py "test"
 # Bitcoin Address U uncompressed : 1HKqKTMpBTZZ8H5zcqYEWYBaaWELrDEXeE
 # Bitcoin Address S Script       : 3PEaV1m4nGi3yTKnzzmqjFTkxzrcFpier5
 # Bitcoin Address W SegWit       : bc1qtmrl9526rusw4dnavrcfal72tz6ram5lqzutru
+
+python coinseek-testlibrary-bit.py fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140
+# Entropy Text                   : ???
+# Entropy Hash = sha256(Text)    : fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140
+# Private Key compressed         : L5oLkpV3aqBjhki6LmvChTCV6odsp4SXM6FfU2Gppt5kFLaHLuZ9
+# Private Key uncompressed       : 5Km2kuu7vtFDPpxywn4u3NLpbr5jKpTB3jsuDU2KYEqetqj84qw
+# Bitcoin Address C compressed   : 1GrLCmVQXoyJXaPJQdqssNqwxvha1eUo2E
+# Bitcoin Address U uncompressed : 1JPbzbsAx1HyaDQoLMapWGoqf9pD5uha5m
+# Bitcoin Address S Script       : 38Kw57SDszoUEikRwJNBpypPSdpbAhToeD
+# Bitcoin Address W SegWit       : bc1q4h0ycu78h88wzldxc7e79vhw5xsde0n8jk4wl5
 ```
 
 ## setup
