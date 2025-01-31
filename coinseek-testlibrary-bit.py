@@ -11,6 +11,11 @@ if len(sys.argv) > 1:
   passwd = " ".join(sys.argv[1:])
 
 entropy = sha256(passwd.encode()).hexdigest()
+if len(sys.argv) > 1:
+  if len(sys.argv[1]) == 64:
+    passwd = "???"
+    entropy = sys.argv[1]
+
 key = Key.from_hex(entropy)
 wifu = bytes_to_wif(key.to_bytes(), compressed=False)
 wifc = bytes_to_wif(key.to_bytes(), compressed=True)
