@@ -13,10 +13,12 @@ python coinseek-sha256.py test
 
 ## setup
 
+https://visualstudio.microsoft.com/de/visual-cpp-build-tools/ - install
+
 ```
 cd %USERPROFILE%
 python -m venv ./coinseek
 python -m pip install --upgrade pip
-pip install bip-utils
+pip install bit
 ```
 
