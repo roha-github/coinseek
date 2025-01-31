@@ -1,7 +1,6 @@
 from hashlib import sha256
 from bit import Key
 from bit.format import bytes_to_wif
-from bit.format import public_key_to_segwit_address
 from bit.crypto import ripemd160_sha256
 from bit.base32 import encode
 import sys
@@ -22,7 +21,7 @@ wifc = bytes_to_wif(key.to_bytes(), compressed=True)
 keyu = Key(wifu)
 caddr = key.address
 uaddr = keyu.address
-scadr = public_key_to_segwit_address(key._public_key)
+scadr = key.segwit_address
 witprog = ripemd160_sha256(key._public_key)
 swadr = encode('bc', 0, witprog)
 
