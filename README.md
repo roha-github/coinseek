@@ -16,5 +16,6 @@ python coinseek-sha256.py test
 ```
 cd %USERPROFILE%
 python -m venv ./coinseek
+pip install bip-utils
 ```
 
