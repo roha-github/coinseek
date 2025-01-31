@@ -34,3 +34,16 @@ print("Bitcoin Address C compressed   :", caddr)   # 1DByDY2tA2CES5GYXsbsmfFX8VJ
 print("Bitcoin Address U uncompressed :", uaddr)   # 18JJvjw2XgwmTtVSv7HwKAJTEEFn7rT79P                   (U ~ legacy uncompressed)
 print("Bitcoin Address S Script       :", scadr)   # 3MMpp9XvjDpFEiPhLaZSa4vmJVGmH2kXbG                   (S ~ Script / SegWit )
 print("Bitcoin Address W SegWit       :", swadr)   # bc1qsk6f3zmc4rp4cjylag7zw2zknhkezxk8zp87ru           (W ~ SegWit / Bench32 )
+
+import requests
+
+def generate_addresses(addr: str):
+  r=requests.get('https://blockchain.info/q/addressbalance/'+addr)
+  if not r.status_code==200:
+    return "n/a"
+  return r.text
+
+print("Bitcoin Address C compressed   :",generate_addresses(caddr)," sat")   
+print("Bitcoin Address U uncompressed :",generate_addresses(uaddr)," sat")   
+print("Bitcoin Address S Script       :",generate_addresses(scadr)," sat")   
+print("Bitcoin Address W SegWit       :",generate_addresses(swadr)," sat")   
