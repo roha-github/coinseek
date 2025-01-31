@@ -11,6 +11,8 @@
 * Lookup falls Adresse und/oder Private Key bekannt
   * [/address/bitcoin/18vqVNQi9fobKZcJWCjZNoDzBxronENfZr](https://privatekeys.pw/address/bitcoin/18vqVNQi9fobKZcJWCjZNoDzBxronENfZr) ~ Adresse mit bekannten Private Key
   * [/address/bitcoin/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF](https://privatekeys.pw/address/bitcoin/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF) ~ Adresse ohne bekannten Private Key
+* Guthaben
+  * [https://privatekeys.pw/richest/bitcoin](https://privatekeys.pw/richest/bitcoin)
 
 ## usage
 
