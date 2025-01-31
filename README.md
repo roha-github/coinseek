@@ -2,9 +2,15 @@
 
 ## note
 
-* https://privatekeys.pw/key/0000000000000000000000000000000000000000000000000000000000000001 ~ minimum SHA-256 1
-* https://privatekeys.pw/key/fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140 ~ maximum SHA-256 2 ^ 256 = 1,15e+77
-* https://iancoleman.io/bip39/ SHA256 = Entropy ~ Seed Phrases = 2.048 ^ 24 = 2,964e+79
+* https://privatekeys.pw - Rainbow Tabelle für Brainwallet - SHA256 - Private Key - Public Key - Coin Adresse
+* Wertebereich für SHA256 von 1 bis 2 ^ 256
+  * [/key/23d4a09295be678b21a5f1dceae1f634a69c1b41775f680ebf8165266471401b](https://privatekeys.pw/key/23d4a09295be678b21a5f1dceae1f634a69c1b41775f680ebf8165266471401b) ~ Einstieg über Key (vor/weiter, Zufall)
+  * [/key/bc2b1c76edc151a61d7c647b1a6e1c15af579ba1c72bdcca028dcfafa91d0231](https://privatekeys.pw/key/bc2b1c76edc151a61d7c647b1a6e1c15af579ba1c72bdcca028dcfafa91d0231) ~ Zufalls Key = zur Laufzeit berechnet
+  * [/key/0000000000000000000000000000000000000000000000000000000000000001](https://privatekeys.pw/key/0000000000000000000000000000000000000000000000000000000000000001) ~ Start = minimum SHA-256 (1)
+  * [/key/fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140](https://privatekeys.pw/key/fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140) ~ Ende = maximum SHA-256 (2 ^ 256 = 1,15e+77)
+* Lookup falls Adresse und/oder Private Key bekannt
+  * [/address/bitcoin/18vqVNQi9fobKZcJWCjZNoDzBxronENfZr](https://privatekeys.pw/address/bitcoin/18vqVNQi9fobKZcJWCjZNoDzBxronENfZr) ~ Adresse mit bekannten Private Key
+  * [/address/bitcoin/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF](https://privatekeys.pw/address/bitcoin/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF) ~ Adresse ohne bekannten Private Key
 
 ## usage
 
